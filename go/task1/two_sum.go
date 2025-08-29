@@ -29,5 +29,4 @@ func main5() {
 	res := twoSum(arr2, target)
 
 	fmt.Println("res:", res)
-
 }
