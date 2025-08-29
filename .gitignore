@@ -1,0 +1,67 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build output
+*.test
+*.out
+
+# Go build cache & intermediate object files
+*.o
+*.a
+*.lo
+*.la
+*.ko
+*.obj
+*.elf
+*.gch
+*.pch
+*.swp
+*.swo
+*.swn
+
+# Compiled binary (from go build / go install)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.app
+*.ipa
+
+# Go specific
+/go.sum
+*.prof
+*.pprof
+*.cover
+*.cov
+*.log
+
+# Dependency directories (vendor if you use modules, optional)
+vendor/
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary / cache
+*.tmp
+*.temp
+*.swp
+*.swo
+*.swn
+
+# Output directories (customize if your project has build outputs here)
+bin/
+build/
+dist/

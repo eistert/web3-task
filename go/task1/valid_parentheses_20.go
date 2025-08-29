@@ -41,7 +41,7 @@ func isValid(s string) bool {
 
 }
 
-func main() {
+func main6() {
 
 	s := "()"
 	res := isValid(s)

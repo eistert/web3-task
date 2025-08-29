@@ -19,7 +19,7 @@ func twoSum(nums []int, target int) []int {
 	return []int{-1, -1}
 }
 
-func main() {
+func main5() {
 
 	// arr := []int{2, 7, 11, 15}
 	arr2 := []int{3, 2, 4}

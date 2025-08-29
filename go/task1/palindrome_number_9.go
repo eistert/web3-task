@@ -24,7 +24,7 @@ func isPalindrome(x int) bool {
 	return b || b1
 }
 
-func main() {
+func main2() {
 	x := 121
 
 	res := isPalindrome(x)

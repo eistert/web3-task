@@ -34,7 +34,7 @@ func singleNumberXOR(nums []int) int {
 	return res
 }
 
-func main() {
+func main4() {
 
 	var b []int = []int{4, 1, 2, 1, 2}
 	res := singleNumber(b)

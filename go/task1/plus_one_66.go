@@ -6,7 +6,7 @@ import "fmt"
 66. 加一
 https://leetcode.cn/problems/plus-one/description/
 */
-func plusOne(digits []int) []int {
+func plusOne1(digits []int) []int {
 	n := len(digits)
 
 	for i := n - 1; i >= 0; i-- {
@@ -28,7 +28,7 @@ func plusOne(digits []int) []int {
 	return digits
 }
 
-func main() {
+func main3() {
 
 	digits := []int{1, 2, 3}
 
