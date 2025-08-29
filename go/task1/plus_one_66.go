@@ -32,7 +32,8 @@ func main3() {
 
 	digits := []int{1, 2, 3}
 
-	res := plusOne(digits)
+	res := plusOne1(digits)
 
 	fmt.Println("res:", res)
+
 }

@@ -24,7 +24,7 @@ func doubleSlice(nums *[]int) {
 	}
 }
 
-func main() {
+func main1() {
 
 	s1 := []int{5, 4, 3, 2, 1}
 	fmt.Println("修改前 s1:", s1)
