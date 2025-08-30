@@ -80,7 +80,7 @@ func mustOpenDB() *sqlx.DB {
 	return db
 }
 
-func main() {
+func main1() {
 	db := mustOpenDB()
 	r := gin.Default()
 
